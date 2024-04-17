@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c33b552bce.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+<div class="container">
+    <nav>
+        <img src="images/logo1.png" class="logo">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portifolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+        <p>Software Engineering Student</p>
+        <h1>Hi,I'm<span> Kalkidan Zenebe</span><br> from Ethiopia</h1>
+    </div>
+</div>
+</div>
+    <div id="about">
+    <div class="container">
+        <div class="row">
+        <div class="about-col-1">
+                <img src="images/user.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                    <p>Hello, My name is Kalkidan Zenebe and I am a third-year Software Engineering bachelor's degree student at Debre Birhan University. I am passionate about technology and creating innovative solutions through software development. I have a strong foundation in programming languages such as Java, C++, and Python, as well as experience in web development and database management.
+                        In addition to my academic pursuits, I am also involved in extracurricular activities such as hackathons and coding competitions, where I have honed my problem-solving skills and teamwork abilities. I am always eager to learn new technologies and stay up-to-date with the latest trends in the tech industry.</p>         
+                        <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experiance')">Experiance</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+<div class="tab-contents active-tab" id="skills">
+    <ul>
+        <li> <span>programing language</span> <br>in programming languages such as Java, Python, C++, etc.</li>
+        <li><span>software development</span><br> Knowledge of software development methodologies like Agile, Scrum, or Waterfall.</li>
+        <li> <span>to solve  problem</span><br> Problem-solving skills to analyze complex issues and develop solutions.</li>
+        <li><span>data structure and algorithms</span><br>  Understanding of data structures and algorithms.</li>
+        <li><span>advance database</span> <br>Ability to work with databases and query languages.</li>
+        <li> <span>communication</span> <br>Strong communication skills for collaborating with team members and presenting ideas.</li>
+    </ul>
+</div>
+<div class="tab-contents" id="experiance">
+    <ul>
+    <li>
+        <li><span>Classroom Learning:</span> Throughout my academic journey, I have taken courses on various programming languages, software development methodologies, algorithms, and data structures. These classes have provided me with a strong foundation in software engineering principles and have helped me develop my technical skills.</li>
+      <li>  <span>Group Projects:</span> I have worked on several group projects with my peers, where we collaborated to design and develop software solutions to real-world problems. These projects have taught me the importance of teamwork, communication, and project management in the software development process.</li>
+       <li><span>Personal Projects:</span> In addition to my academic and internship experiences, I have also worked on personal projects to further develop my skills and explore new technologies. Building my own projects has allowed me to be creative, solve complex problems, and showcase my abilities as a software engineer.</li>
+    </ul>
+</div>
+<div class="tab-contents" id="education">
+    <ul>
+        <li><span>Core Courses:</span> I have completed foundational courses in software development, programming languages, data structures, algorithms, and computer architecture. These courses have provided me with a solid understanding of the fundamental principles of software engineering.</li>
+        <li><span>Specialized Courses:</span> As I progress in my program, I have the opportunity to take more specialized courses that delve deeper into topics such as software design, database management, web development, and software testing. These courses are equipping me with the specific skills and knowledge needed to excel in the field of software engineering.</li>
+    </ul>
+    </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>web design</h2>
+                    <p>Developing and designing software applications</p>
+                        <a href="#">learn more</a>
+                        </div>
+                        <div>
+                        <i class="fa-solid fa-comment-dots"></i>
+                        <h2>testing</h2>
+                        <p> Testing and debugging software</p>
+                        <a href="#">Learn more</a>
+                        </div>
+                        <div>
+                        <i class="fa-solid fa-paint-roller"></i>
+                        <h2>software maitenance</h2> 
+                        <p>Providing technical support and maintenance for software</p>
+                        <a href="#">Learn more</a>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-figma"></i>
+                        <h2>web creation</h2>
+                        <p> Creating websites and web applications</p>
+                        <a href="#">Learn more</a>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-chrome"></i>
+                        <h2>developing aplication</h2>
+                        <p>Developing mobile applications</p>
+                        <a href="#">Learn more</a>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-lock"></i>
+                        <h2>software security</h2>
+                        <p> Implementing software security measures</p>
+                        <a href="#">Learn more</a>
+                        </div>
+                        <div>
+                            <i class="fa-sharp fa-regular fa-book"></i>
+                        <h2>sofware documentation</h2>
+                        <a href="#">Learn more</a>
+                        <p>Performing software documentation and writing technical manuals</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+    <div id="portifolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work1.jpg" >
+                    <div class="layer">
+                        <h3>socail media app</h3>
+                        <p>A social media app is a platform where users can connect and interact with each other, share content, and build online communities. Examples of popular social media apps include Facebook, Instagram, and Twitter.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                    </div>
+                <div class="work">
+                    <img src="images/work2.jpg" >
+                    <div class="layer">
+                        <h3>learning  app</h3>
+                        <p>A learning app is an application designed to facilitate education and skill development by offering courses, quizzes, tutorials, and other learning materials. Learning apps can cover a wide variety of subjects and are often used for self-paced learning or as supplements to traditional education.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+                </div>
+                <div class="work">
+                    <img src="images/work3.jpg" >
+                    <div class="layer">
+                        <h3>online shoping  app</h3>
+                        <p>An online shopping app is a mobile application that allows users to browse, search for, and purchase products or services online. Online shopping apps often provide a convenient and user-friendly way to shop from the comfort of one's own home, with features such as secure payment options, customer reviews, and personalized recommendations.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+    </div>
+    </div>     
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>Contactkalkidanzenebe@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+251967833239</p>
+                    <div class="social-icons">
+                        <a href="https://linked in.com/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-whatsapp"></i></a> 
+                    </div>
+                    <a href="portifolio/mycv.pdf" download class="btn btn2">Download cv</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        <div class="copyright">
+        <p>Copyright@Kalkidan</p>
+        </div>
+     </div>
+    <script>
+var tablinks=document.getElementsByClassName("tab-links");
+var tabcontents=document.getElementsByClassName("tab-contents");
+function opentab(tabname){
+       for(tablink of tablinks){
+    tablink.classList.remove("active-link");
+}
+       for(tabcontent of tabcontents){
+    tabcontent.classList.remove("active-tab");
+}
+event.currentTarget.classList.add("active-link");
+document.getElementById(tabname).classList.add("active-tab");
+}
+    </script>
+    <script>
+var sidemenu = document.getElementById("sidemenu");
+function openmenu(){
+    sidemenu.style.right = "0";
+}
+
+function closemenu(){
+    sidemenu.style.right = "-200px";
+}
+    </script>
+</body>
+</html>
